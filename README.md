@@ -1,2 +1,2 @@
 # Yoga_Inspires
-Redisighn of an old yoga site/blog
+Redesighn of an old yoga site/blog
