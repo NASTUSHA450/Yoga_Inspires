@@ -188,8 +188,14 @@ button{
 }
 .card p{
     margin-top: 10px;
-}
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: -0.055em;
+    
+    color: #000000;
 
+}
 @media only screen and (max-width:768px){
     #carousel-1{
         display: none;
@@ -205,13 +211,50 @@ button{
         width: 50px;
     }
     #carousel-2 p{
-        font-size: 14px;
+        font-size: 12px;
     }
+}
+
+#footer{
+    background: linear-gradient(95.6deg, rgba(41, 137, 68, 0.71) 27.71%, rgba(41, 137, 68, 0.5609) 95.19%);
+}
+#footer h6{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+    letter-spacing: 0.22em;
+
+    color: #FFFFFF;
+}
+#footer a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: -0.055em;
+
+    color: #FFFFFF;
+}
+@media only screen and (max-width:576px){
+    #socials-lg{
+        display: none;
+    }
+}
+@media only screen and (min-width:577px){
+    #socials-sm{
+        display: none;
+    }
+}
+#footer #copy{
+    margin: 0;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 
 
-/* nav-menu */
+
 #nav-menu{
     position: absolute;
     top: 0;
@@ -235,4 +278,5 @@ button{
         
     }
 }
+
 
