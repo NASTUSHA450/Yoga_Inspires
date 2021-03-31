@@ -11,10 +11,18 @@ button{
     border: 1px dashed greenyellow;
 } */
 .title{
+    margin: 0;
     font-style: normal;
     font-weight: bold;
     letter-spacing: 0.1em;
     color: #000000;
+}
+.titleCon{
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.22em;
+    margin: 0;
+    color: #FFFFFF;
 }
 @media only screen and (max-width:400px){
     .title{
@@ -53,7 +61,9 @@ button{
         font-size: small;
     }
 }
-
+#menu{
+    margin-top: 30px;
+}
 #menu a{
     font-size: 25px;
 }
@@ -96,6 +106,9 @@ button{
 }
 #language .active{
     color: #84BB93;
+}
+#language .activeCon{
+    color: #FFFFFF;
 }
 #wiy p{
     margin-top: 16px;
@@ -196,10 +209,7 @@ button{
     color: #000000;
 
 }
-.card img{
-    border: 2px solid #298944;
-    border-radius: 5px;
-}
+
 @media only screen and (max-width:768px){
     #carousel-1{
         display: none;
@@ -227,6 +237,22 @@ button{
 }
 #news .card{
     margin-bottom: 20px;
+}
+
+#form{
+    margin-top: 20px;
+}
+#form label {
+    margin: 0;
+}
+#form .row{
+    margin-top: 20px;
+}
+#form label{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.14em;
+    color: #FFFFFF;
 }
 
 #footer{
@@ -267,6 +293,32 @@ button{
 }
 #footerMenuRu .col{
     font-size: 15px;
+}
+#footerCon{
+    margin-top: 20px;
+}
+#footerCon h6{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+    letter-spacing: 0.22em;
+
+    color: #FFFFFF;
+}
+#footerCon a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: -0.055em;
+
+    color: #FFFFFF;
+}
+#footerCon #copy{
+    margin: 0;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 
