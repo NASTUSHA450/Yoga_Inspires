@@ -171,7 +171,43 @@ button{
         font-size: 20px;
     }
 }
-/* 992-1400 */
+
+#recent h3{
+    margin-top: 20px;
+}
+.carousel-inner{
+    overflow: hidden;
+}
+.carousel-item{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card{
+    padding: 30px 30px 0px 30px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+}
+.card p{
+    margin-top: 10px;
+}
+
+@media only screen and (max-width:768px){
+    #carousel-1{
+        display: none;
+    }
+}
+@media only screen and (min-width:769px){
+    #carousel-2{
+        display: none;
+    }
+}
+@media only screen and (max-width:500px){
+    #carousel-2 button img{
+        width: 50px;
+    }
+    #carousel-2 p{
+        font-size: 14px;
+    }
+}
 
 
 
