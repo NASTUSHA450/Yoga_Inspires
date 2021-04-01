@@ -7,9 +7,9 @@ button{
     border: none;
     background-color: transparent;
 }
-/* .row div{
+.row div{
     border: 1px dashed greenyellow;
-} */
+}
 .title{
     margin: 0;
     font-style: normal;
@@ -148,6 +148,7 @@ button{
     text-align: center;
     letter-spacing: -0.055em;
 }
+
 @media only screen and (max-width:400px){
     #about h6{
         font-size: 20px;
@@ -166,8 +167,12 @@ button{
     font-size: 25px;
     line-height: 37px;
     letter-spacing: -0.055em;
+    margin: 0;
 
     color: #000000;
+}
+#moreText1,#moreText2, #moreText3 {
+    font-size: 20px;
 }
 @media only screen and (min-width:550px) and (max-width:767px){
     #about #readMore img{
@@ -198,6 +203,7 @@ button{
 .card{
     padding: 30px 30px 0px 30px;
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
 }
 .card p{
     margin-top: 10px;
@@ -254,6 +260,150 @@ button{
     letter-spacing: 0.14em;
     color: #FFFFFF;
 }
+
+#postPreview .post-preview-col{
+    padding: 0;
+}
+#postPreview h2{
+    font-style: normal;
+    font-weight: bold;
+    /* font-size: 30px; */
+    line-height: 40px;
+    letter-spacing: 0.115em;
+    padding-left: 20px;
+
+    color: #FFFFFF;
+}
+#postPreview p{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.115em;
+
+        color: #FFFFFF;
+        margin-right: 150px;
+        padding-left: 20px;
+}
+@media only screen and (min-width:1000px){
+    #postPreview h2{
+        font-size: 41px;
+    }
+    #postPreview p{
+        font-weight: 500;
+        padding-top: 7px;
+        font-size: 33px;
+        line-height: 40px;
+        margin-right: 200px;
+
+    }
+    #postContent h3{
+        font-size: 35px;
+    }
+    
+}
+@media only screen and (max-width:3000px){
+    #postContent p{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width:1000px){
+    #postContent p{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width:768px){
+    #postContent p{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width:748px){
+    #postPreview h2{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    #postPreview p{
+        padding-top: 7px;
+        font-size: 18px;
+        line-height: 20px;
+        margin-right: 60px;
+    }
+}
+@media only screen and (max-width:500px){
+    #postPreview h2{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    #postPreview p{
+        padding-top: 0px;
+        font-size: 15px;
+        line-height: 20px;
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width:500px){
+    #postPreview h2{
+        font-size: 18px;
+    }
+    #postPreview p{
+        padding-top: 0px;
+        font-size: 15px;
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width:400px){
+    #postPreview h2{
+        font-size: 15px;
+        line-height: 15px;
+    }
+    #postPreview p{
+        padding-top: 0px;
+        font-size: 12px;
+        margin-right: 60px;
+        line-height: 15px;
+    }
+    #postContent h3{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width:360px){
+    #postPreview h2{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    #postPreview p{
+        padding-top: 0px;
+        font-size: 10px;
+        margin-right: 60px;
+        line-height: 13px;
+    }
+}
+#postContent .row{
+    margin-top: 20px;
+}
+#postContent a{
+    text-decoration: none;
+}
+#postContent h3{
+    margin: 0;
+    background: -webkit-linear-gradient(#298944,#A2C883);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-style: normal;
+    
+}
+#postContent hr{
+    margin: 0;
+    height: 2px;
+    background: linear-gradient(116.69deg, rgba(41, 137, 68, 0.71) 38.37%, rgba(162, 200, 131, 0.71) 79.93%);
+
+}
+#postContent span{
+    font-weight: bold;
+}
+
+
 
 #footer{
     background: linear-gradient(95.6deg, rgba(41, 137, 68, 0.71) 27.71%, rgba(41, 137, 68, 0.5609) 95.19%);
