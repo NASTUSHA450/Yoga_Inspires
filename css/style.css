@@ -7,9 +7,6 @@ button{
     border: none;
     background-color: transparent;
 }
-.row div{
-    border: 1px dashed greenyellow;
-}
 .title{
     margin: 0;
     font-style: normal;
@@ -154,10 +151,10 @@ button{
         font-size: 20px;
     }
 }
-
-#about .read-less-btn{
+#btn_less_1, #btn_less_2,#btn_less_3,#moreText1, #moreText2, #moreText3{
     display: none;
 }
+
 #about button{
     padding: 10px;
 }
