@@ -213,7 +213,17 @@ button{
     color: #000000;
 
 }
-
+#carousel-0{
+    display: none;
+}
+@media only screen and (min-width:1600px){
+    #carousel-0{
+        display: block;
+    }
+    #carousel-1{
+        display: none;
+    }
+}
 @media only screen and (max-width:768px){
     #carousel-1{
         display: none;
