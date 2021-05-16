@@ -30,6 +30,7 @@ button{
 #preview{
     background: linear-gradient(95.6deg, rgba(41, 137, 68, 0.71) 27.71%, rgba(41, 137, 68, 0.5609) 95.19%);
 }
+
 #preview h1{
     font-style: normal;
     font-weight: bold;
@@ -48,14 +49,20 @@ button{
 #preview .active{
     border-bottom: 2px solid white;
 }
+@media only screen and (max-width:768px){
+    #preview h1{
+        display: none;
+    }
+}
 @media only screen and (max-width:560px){
     #preview h1{
-        font-size: medium;
+        font-size: 20px;
      }
+
 }
 @media only screen and (max-width:400px){
     #preview h1{
-        font-size: small;
+        font-size: 18px;
     }
 }
 #menu{
